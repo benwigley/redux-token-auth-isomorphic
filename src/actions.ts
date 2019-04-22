@@ -1,4 +1,5 @@
 import axios from 'axios'
+axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*'
 import {
   Dispatch,
   Store,

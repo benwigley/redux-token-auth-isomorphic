@@ -37,6 +37,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 var _this = this;
 Object.defineProperty(exports, "__esModule", { value: true });
 var axios_1 = require("axios");
+axios_1.default.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
 var types_1 = require("./types");
 var AsyncLocalStorage_1 = require("./AsyncLocalStorage");
 var auth_1 = require("./services/auth");
